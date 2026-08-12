@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Indonesia Bintang 5</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6d2ea823d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Loading -->
+<div id="loading">
+    <div class="loader"></div>
+    <h2>Memuat Hotel Indonesia...</h2>
+</div>
+
+<!-- Header -->
+<header>
+
+<div class="logo">
+    <img src="kp.png">
+    <h2>Hotel Indonesia</h2>
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#kamar">Kamar</a>
+<a href="#fasilitas">Fasilitas</a>
+<a href="#galeri">Galeri</a>
+<a href="#booking">Booking</a>
+
+</nav>
+
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+
+<video autoplay muted loop playsinline>
+<source src=video/"kl.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>★★★★★</h1>
+
+<h2>Selamat Datang di Hotel Indonesia</h2>
+
+<p>
+Nikmati pengalaman menginap mewah dengan pelayanan terbaik,
+kamar elegan, kolam renang, restoran premium,
+spa, dan pemandangan yang indah.
+</p>
+
+<a href="#booking" class="btn">
+Booking Sekarang
+</a>
+
+</div>
+
+</section>
+
+<!-- Tentang -->
+
+<section class="about">
+
+<h2>Tentang Hotel</h2>
+
+<p>
+
+Hotel Indonesia merupakan hotel bintang 5 dengan
+pelayanan profesional, kamar nyaman,
+dan fasilitas lengkap untuk liburan maupun bisnis.
+
+</p>
+
+</section>
+
+<!-- Kamar -->
+
+<section id="kamar">
+
+<h2 class="judul">
+Pilihan Kamar
+</h2>
+
+<div class="room-container">
+
+<div class="room">
+
+<img src="images/ip.jpg">
+
+<h3>Deluxe Room</h3>
+
+<p>
+
+Mulai dari Rp850.000 / malam
+
+</p>
+
+<button>Pilih</button>
+
+</div>
+
+<div class="room">
+
+<img src="images/op.jpg">
+
+<h3>Executive Room</h3>
+
+<p>
+
+Mulai dari Rp1.500.000 / malam
+
+</p>
+
+<button>Pilih</button>
+
+</div>
+
+<div class="room">
+
+<img src="images/ap.jpg">
+
+<h3>Presidential Suite</h3>
+
+<p>
+
+Mulai dari Rp4.500.000 / malam
+
+</p>
+
+<button>Pilih</button>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Fasilitas -->
+
+<section id="fasilitas">
+
+<h2 class="judul">
+
+Fasilitas Hotel
+
+</h2>
+
+<div class="fasilitas">
+
+<div class="item">
+
+<img src="images/js.jpeg">
+
+<h3>Kolam Renang</h3>
+
+</div>
+
+<div class="item">
+
+<img src="ja.webp">
+
+<h3>Restoran</h3>
+
+</div>
+
+<div class="item">
+
+<img src="jo.jpg">
+
+<h3>Spa</h3>
+
+</div>
+
+<div class="item">
+
+<img src="ji.jpeg">
+
+<h3>Fitness Center</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Galeri -->
+
+<section id="galeri">
+
+<h2 class="judul">
+
+Galeri Hotel
+
+</h2>
+
+<div class="gallery">
+
+<img src="images/ak.jpeg">
+
+<img src="images/bk.jpg">
+
+<img src="images/ck.jpg">
+
+<img src="images/dk.jpg">
+
+<img src="images/ek.jpg">
+
+<img src="images/fk.jpg">
+
+</div>
+
+</section>
+
+<!-- Booking -->
+
+<section id="booking">
+
+<div class="booking-box">
+
+<h2>Reservasi Hotel</h2>
+
+<form id="bookingForm">
+
+<input
+type="text"
+placeholder="Nama Lengkap"
+required>
+
+<input
+type="email"
+placeholder="Email"
+required>
+
+<input
+type="tel"
+placeholder="Nomor HP"
+required>
+
+<select required>
+
+<option>Pilih Tipe Kamar</option>
+
+<option>Deluxe Room</option>
+
+<option>Executive Room</option>
+
+<option>Presidential Suite</option>
+
+</select>
+
+<label>Check In</label>
+
+<input
+type="date"
+required>
+
+<label>Check Out</label>
+
+<input
+type="date"
+required>
+
+<input
+type="number"
+placeholder="Jumlah Tamu"
+required>
+
+<textarea
+placeholder="Permintaan Khusus"></textarea>
+
+<button type="submit">
+
+Booking Sekarang
+
+</button>
+
+</form>
+
+<div id="hasilBooking"></div>
+
+</div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<h2>Hotel Indonesia ★★★★★</h2>
+
+<p>
+
+Jl. Hotel Indonesia No.1,
+Jakarta, Indonesia
+
+</p>
+
+<p>
+
+Email :
+reservation@hotelindonesia.com
+
+</p>
+
+<p>
+
+Telepon :
+021-12345678
+
+</p>
+
+<p>
+
+©2026 Hotel Indonesia
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
